@@ -1,188 +1,189 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap");
 
 /*Typepograpy-start*/
-*{
-    margin:0;
-    padding:0;
-    outline:0;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
-body{
-    background-color:#FFFF;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+body {
+  background-color: #ffff;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
-.full_wrapper{
-    width:100%;
+.full_wrapper {
+  width: 100%;
 }
-.wrapper{
-   
-    background-color:aquamarine;
-}    
-
-ul{
-    list-style-type:none;
+.wrapper {
+  background-color: aquamarine;
 }
 
-.clear{
-    overflow: hidden;
+ul {
+  list-style-type: none;
 }
 
-img{
-    width: 100%;
-    height:auto;
+.clear {
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 /*Typepograpy-end*/
 
 /* header-part-start */
 
-.header{
-    float:left;
-    padding:35px;
-    border-bottom:2px solid gray;
+.header {
+  float: left;
+  padding: 35px;
+  border-bottom: 2px solid gray;
 }
 
-.header__img{
-    width:300px;
-    height:300px;
-    float: left;
-  
+.header__img {
+  width: 300px;
+  height: 300px;
+  float: left;
 }
-.header__img>img{
-    width:100%;
-    border-radius:5px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    -ms-border-radius:5px;
-    -o-border-radius:5px;
-}
-
-.header__title{
-    float: left;
-    margin-right:50px;
-    margin-left:20px;
-    margin-top:100px;
-}
-.header__title>h1{
-    font-size:50px;
+.header__img > img {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
-.header__title>p{
-    font-size:35px;
+.header__title {
+  float: left;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: 100px;
 }
-.header__content{
-    float: left;
-     margin-top:100px;
-
+.header__title > h1 {
+  font-size: 50px;
 }
 
-.header__content>ul>li{
-    font-size:30px;
-    line-height:50px;
-    letter-spacing:2px;
+.header__title > p {
+  font-size: 35px;
+}
+.header__content {
+  float: left;
+  margin-top: 100px;
+}
+
+.header__content > ul > li {
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: 2px;
 }
 /* header-part-end */
-
+.object__title {
+  background-color: rgb(68, 157, 184);
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(248, 243, 243);
+}
 /* Career Objective-strat */
-.career__obj{
-    padding:30px;
-    border-bottom:1px solid gray;
+.career__obj {
+  padding: 30px;
+  border-bottom: 1px solid gray;
 }
 
-.career__obj>h2{
-    font-size:30px;
-    margin-bottom:10px;
+.career__obj > h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-.career__obj>p{
-    font-size:20px;
-    line-height: 30px;
-    word-spacing: 5px;
-    text-align:justify;
+.career__obj > p {
+  font-size: 20px;
+  line-height: 30px;
+  word-spacing: 5px;
+  text-align: justify;
 }
 
 /* Career Objective-end */
 
 /* Academic-Records-strat */
-.academic__records{
-    padding:30px;
-    border-bottom:1px solid gray;
+.academic__records {
+  padding: 30px;
+  border-bottom: 1px solid gray;
 }
 
-.academic__records>h2{
-    font-size:30px;
-    margin-bottom:20px;
+.academic__records > h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.academic__one{
- margin-bottom:20px;
-   
+.academic__one {
+  margin-bottom: 20px;
 }
-.academic__one>h3{
-    font-size:20px;
-    margin-top:20px;
+.academic__one > h3 {
+  font-size: 20px;
+  margin-top: 20px;
 }
 
-table,tr,td{
-    line-height:30px;
-    font-size:20px;
-    word-spacing: 5px;
-    letter-spacing: 2px;
+table,
+tr,
+td {
+  line-height: 30px;
+  font-size: 20px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
 }
 /* Academic-Records-end */
 
 /* Industrial Attachment-Computer Literacy-Language Proficiency-strat */
-.attachment{
-    padding:30px;
-    border-bottom:1px solid gray;
+.attachment {
+  padding: 30px;
+  border-bottom: 1px solid gray;
 }
-.attachment__all{
-    margin-bottom:20px;
+.attachment__all {
+  margin-bottom: 20px;
 }
-.attachment__all>h2{
-    font-size:30px;
-    margin-bottom:10px;
+.attachment__all > h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 /* Industrial Attachment-Computer Literacy-Language Proficiency-end */
 
 /* Personal Details-strat  */
-.personal__details{
-    padding:30px;
-    border-bottom:1px solid gray;
+.personal__details {
+  padding: 30px;
+  border-bottom: 1px solid gray;
 }
-.personal__details>h2{
-     font-size:30px;
-    margin-bottom:20px;
+.personal__details > h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 /* Personal Details-end  */
 
 /* References-strat */
-.references{
-    padding:30px;
-    border-bottom:1px solid gray;
+.references {
+  padding: 30px;
+  border-bottom: 1px solid gray;
 }
 
-.references>h2{
-    font-size:30px;
-    margin-bottom:20px;
+.references > h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.references>p{
-    font-size:20px;
-    margin-top:10px;
-    word-spacing: 5px;
-    letter-spacing: 2px;
+.references > p {
+  font-size: 20px;
+  margin-top: 10px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
 }
 /* References-end */
 
 /* Copyright-part-strat */
-.copy__right{
-   padding:20px;
-   background-color:#000;
-
+.copy__right {
+  padding: 20px;
+  background-color: #000;
 }
-.copy__right>p{
-    font-size:20px;
-    text-align:center;
-    color:#fff;
-    
+.copy__right > p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
 }
 /* Copyright-part-end */
